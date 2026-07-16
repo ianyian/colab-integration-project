@@ -1,7 +1,18 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Colab Integration Project
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+This repository contains notebook-based experiments for image classification and related data exploration.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Open in Google Colab
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+Use the GitHub integration in Colab to open the notebook directly from this repo:
+
+`https://colab.research.google.com/github/ianyian/colab-integration-project/blob/main/notebooks/image-classifier.ipynb`
+
+If you need GPU support, in Colab choose `Runtime` > `Change runtime type` and select a GPU accelerator before running the notebook.
+
+## Files
+
+- `notebooks/image-classifier.ipynb`: main notebook for model work
+- `notebooks/matplotlib.ipynb`: plotting examples
+- `notebooks/population.ipynb`: data exploration notebook
+- `data/atlantis.csv`: sample data used by the notebooks
